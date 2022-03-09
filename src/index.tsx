@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
 import { theme } from './theme';
@@ -40,6 +39,7 @@ footer, header, hgroup, main, menu, nav, section {
 }
 body {
   line-height: 1;
+  overflow-x:hidden ;
 }
 menu, ol, ul {
   list-style: none;
